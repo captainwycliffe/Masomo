@@ -17,6 +17,9 @@ gem 'font-awesome-sass', '~> 6.5', '>= 6.5.2'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
+#stripe
+gem 'stripe', '~> 11.3'
+
 #devise
 gem 'devise', '~> 4.9', '>= 4.9.4'
 

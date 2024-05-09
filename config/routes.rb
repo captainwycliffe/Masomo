@@ -10,6 +10,12 @@ Rails.application.routes.draw do
     root to: "admin#index", as: :admin_root
   end
 
+  namespace :admin do
+    resources :courses do
+      resources :lessons
+    end
+    resources :users
+  end
   resources :checkouts, only: [:create]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -20,6 +26,7 @@ Rails.application.routes.draw do
   get "admin" => "admin#index"
 
   post "/webhook" => "webhooks#stripe"
+  patch "/admin/courses/:course_id/lessons/:id/move" => "admin/lessons#move"
 
   # Defines the root path route ("/")
   root "courses#index"

@@ -8,29 +8,35 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+# Use pg as the database for Active Record
+gem "pg", "~> 1.1"
 
 #font-awesome-sass [https://github.com/FortAwesome/font-awesome-sass]
-gem 'font-awesome-sass', '~> 6.5', '>= 6.5.2'
+gem "font-awesome-sass", "~> 6.5", ">= 6.5.2"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
 #stripe
-gem 'stripe', '~> 11.3'
+gem "stripe", "~> 11.3"
+
+gem "aws-sdk-s3", "~> 1.149", ">= 1.149.1"
+
+gem "acts_as_list", "~> 0.7.2"
+
+gem "groupdate", "~> 6.4"
 
 #devise
-gem 'devise', '~> 4.9', '>= 4.9.4'
+gem "devise", "~> 4.9", ">= 4.9.4"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+gem "importmap-rails", "1.2.3"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+gem "stimulus-rails", "1.3.0"
 
 # Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
 gem "tailwindcss-rails"

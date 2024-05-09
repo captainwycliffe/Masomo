@@ -9,3 +9,6 @@
 #   end
 
 #Create a default admin user
+if !Admin.exists?(email: "captainwycliffekibet@gmail.com")
+    Admin.create!(email: "captainwycliffekibet@gmail.com", password: "password")
+  end

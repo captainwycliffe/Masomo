@@ -24,7 +24,7 @@ To install and run the E-Learning System locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/captainwycliffe/learning-management.git
+   git clone https://github.com/captainwycliffe/learning_management.git
    ```
 
 2. Navigate into the project directory:

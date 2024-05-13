@@ -1,6 +1,4 @@
-Sure, here's the updated README.md with the added note about accessing the admin dashboard:
 
-```markdown
 # E-Learning System
 
 Welcome to our E-Learning System! This application is built using Ruby on Rails and offers a comprehensive set of features to facilitate online learning. From video uploads to user progress tracking, this system provides a rich and interactive learning experience for both students and instructors.

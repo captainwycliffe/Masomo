@@ -1,4 +1,6 @@
+Sure, here's the updated README.md with the added note about accessing the admin dashboard:
 
+```markdown
 # E-Learning System
 
 Welcome to our E-Learning System! This application is built using Ruby on Rails and offers a comprehensive set of features to facilitate online learning. From video uploads to user progress tracking, this system provides a rich and interactive learning experience for both students and instructors.
@@ -52,7 +54,7 @@ To install and run the E-Learning System locally, follow these steps:
    bin/rails server
    ```
 
-6. Open your web browser and visit `http://localhost:3000` to access the application.
+6. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the application.
 
 ## Deployment
 
@@ -64,13 +66,17 @@ If you encounter issues with deployment, ensure that your production environment
 - Set the appropriate environment variables, especially those required for services like Stripe and email notifications.
 - Use a service like Render, Heroku, or AWS to host your application.
 
+## Accessing Admin Dashboard
+
+If you want access to the admin dashboard, please contact me at [captainwycliffe@gmail.com](mailto:captainwycliffe@gmail.com).
+
 ## Contributing
 
 Contributions to the E-Learning System are welcome! Feel free to submit pull requests with new features, improvements, or bug fixes.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
